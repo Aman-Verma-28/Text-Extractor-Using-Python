@@ -1,6 +1,6 @@
 # Text-Extractor-Using-Python
 ---
-This program will extract text from the webpages present in the paragraph tags.
+This program will extract text from the webpages present in the paragraph tags (Use main.py file for the code)
 ---
 
 ## Set up 
