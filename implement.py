@@ -5,7 +5,7 @@ import io
 
 pdf_link = 'https://agricoop.nic.in/sites/default/files/Hindi%20version%20of%20The%20Farmers%20%28E%26P%29%20Agreement%20on%20Price%20Assurance%20%281%29_1.pdf'
 
-response = requests.get(pdf_link)
+response = requests.get(pdf_link, timeout=60)
 
 pdf_obj = PyPDF2.PdfFileReader(BytesIO(response.content))
 
